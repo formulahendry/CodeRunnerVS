@@ -2,7 +2,7 @@
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
     <Identity Id="CodeRunner.Jun Han.2123e926-6047-4d21-aaa7-78d3ce3175c8" Version="0.0.1" Language="en-US" Publisher="Jun Han" />
-    <DisplayName>CodeRunner</DisplayName>
+    <DisplayName>Code Runner</DisplayName>
     <Description xml:space="preserve">Run code for JavaScript, PHP, Python, Perl, Ruby, Go, Lua, Groovy, Scala, VBScript</Description>
     <MoreInfo>https://github.com/formulahendry/CodeRunnerVS</MoreInfo>
     <Icon>Resources\logo.png</Icon>
@@ -12,6 +12,7 @@
   <Installation>
     <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[14.0,15.0]" />
     <InstallationTarget Version="[14.0,15.0]" Id="Microsoft.VisualStudio.Enterprise" />
+    <InstallationTarget Version="[14.0,15.0]" Id="Microsoft.VisualStudio.Pro" />
   </Installation>
   <Dependencies>
     <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
