@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="CodeRunner.Jun Han.2123e926-6047-4d21-aaa7-78d3ce3175c8" Version="0.0.1" Language="en-US" Publisher="Jun Han" />
+        <Identity Id="CodeRunner.Jun Han.2123e926-6047-4d21-aaa7-78d3ce3175c8" Version="0.1.0" Language="en-US" Publisher="Jun Han" />
         <DisplayName>Code Runner</DisplayName>
         <Description xml:space="preserve">Run code for JavaScript, PHP, Python, Perl, Ruby, Go, Lua, Groovy, Scala, VBScript, PowerShell</Description>
         <MoreInfo>https://github.com/formulahendry/CodeRunnerVS</MoreInfo>
