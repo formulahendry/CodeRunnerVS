@@ -128,7 +128,8 @@ namespace CodeRunner
                 {".lua", "lua"},
                 {".groovy", "groovy"},
                 {".scala", "scala"},
-                {".vbs", "cscript //Nologo"}
+                {".vbs", "cscript //Nologo"},
+                {".ps1", "powershell -ExecutionPolicy ByPass -File"}
             };
 
             if (!extMapping.ContainsKey(ext))
